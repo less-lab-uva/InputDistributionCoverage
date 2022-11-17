@@ -1,4 +1,4 @@
-# feasiblePartitions
+# FeasiblePartitions
 Compute the number of feasible t-way combinations of partitions of spherical Gaussian
 
 This code addresses the problem of partitioning the volume of a high-dimensional spherical Gaussian based on a partition of each of its dimensions using a Cartesian coordinate system.
