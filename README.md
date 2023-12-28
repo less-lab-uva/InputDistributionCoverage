@@ -37,7 +37,7 @@ Running this tool requires Java installed on the machine.
 
     `pip install -r requirements.txt`
 
-- Run `measure_coverage.py` to measure the total t-way coverage of the test datasets of MNIST, Fashion-MNIST and CIFAR10. Refer to [results](https://github.com/swa112003/IDC_temp/tree/main/results) directory for supported VAE models.
+- Run `measure_coverage.py` to measure the total t-way coverage of the test datasets of MNIST, Fashion-MNIST and CIFAR10. Refer to [results](https://github.com/less-lab-uva/InputDistributionCoverage/tree/main/results) directory for supported VAE models.
 
 ```
   python measure_coverage.py [vae] --dataset [mnist/fmnist/cifar10] --no_bins [intervals] --ways [ways] --density [target density: range[0,1]]
